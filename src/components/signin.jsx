@@ -63,10 +63,10 @@ const SignIn = () => {
           </div>
         </div>
       </div>
-      <div className={styles.image}>
+      {/* <div className={styles.image}>
         <img className={styles.imageIcon} alt="" src={image} />
         <div className={styles.overlay} />
-      </div>
+      </div> */}
       <div className={styles.logo}>
         <img className={styles.excludeIcon} alt="" src={logo} />
         <b className={styles.maglo}>Maglo.</b>

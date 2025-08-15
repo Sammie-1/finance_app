@@ -176,6 +176,7 @@
     width: 96px;
     position: relative;
     height: 11px;
+    margin-bottom: 30px;
 }
 .dontHaveAnAccountSignUpParent {
     display: flex;
@@ -198,7 +199,7 @@
 }
 .signIn1 {
     position: absolute;
-    top: 199px;
+    top: 120px;
     left: 135px;
     display: flex;
     flex-direction: column;
@@ -250,15 +251,13 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    gap: 12px;
     font-size: 18px;
     font-family: Gordita;
 }
 .signIn {
     width: 100%;
-    position: relative;
     background-color: #fff;
-    height: 900px;
+    height: 730px;
     overflow: hidden;
     text-align: left;
     font-size: 30px;

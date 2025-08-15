@@ -4,8 +4,8 @@ import Overlay from './components/overlay'
 
 function App() {
   return (
-    <div className="App">
-      <SignIn />
+    <div className="flex flex-col-reverse md:flex-row items-center justify-center md:h-screen h-auto" >
+      <SignIn /> 
       <Overlay />
     </div>
   )

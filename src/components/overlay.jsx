@@ -1,10 +1,11 @@
 import React from 'react';
-import styles from '../styles/overlay.module.css';
+import Image from '../assets/image.png';
+
 
 const Overlay = () => {
   return (
-    <div className={styles.container}>
-      <div className={styles.overlay} />
+    <div className="h-[730px] w-10/11 md:w-1/2">
+        <img src={Image} alt="overlay" className="w-full h-full object-cover" />
     </div>
   );
 };
