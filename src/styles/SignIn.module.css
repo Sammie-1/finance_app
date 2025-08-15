@@ -1,0 +1,268 @@
+.welcomeBack {
+    position: relative;
+    font-weight: 600;
+}
+.welcomeBackPlease {
+    position: relative;
+    font-size: 16px;
+    color: #78778b;
+}
+.titel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.email {
+    position: relative;
+    font-weight: 500;
+}
+.emailWrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px 10px 10px 0px;
+}
+.enterYourEmailWrapper {
+    width: 404px;
+    border-radius: 10px;
+    border: 1px solid #f2f2f2;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 25px 16px 20px;
+    color: #78778b;
+}
+.input {
+    width: 404px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.passwordWrapper {
+    width: 404px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px 10px 10px 0px;
+    box-sizing: border-box;
+}
+.elipsIcon {
+    width: 65px;
+    position: relative;
+    height: 5px;
+}
+.elipsWrapper {
+    width: 404px;
+    border-radius: 10px;
+    border: 1px solid #f2f2f2;
+    box-sizing: border-box;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 25px 16px 20px;
+}
+.input1 {
+    width: 404px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.inputParent {
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 5px;
+}
+.rememberChild {
+    width: 16px;
+    position: relative;
+    border-radius: 3px;
+    border: 1px solid #929eae;
+    box-sizing: border-box;
+    height: 16px;
+}
+.remember {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 9px;
+}
+.forgotPassword {
+    position: relative;
+    font-weight: 500;
+    text-align: right;
+}
+.rememberParent {
+    width: 404px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 14px;
+}
+.button {
+    width: 404px;
+    border-radius: 10px;
+    background-color: #c8ee44;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 20px;
+    box-sizing: border-box;
+}
+.icongoogle {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.button1 {
+    width: 404px;
+    border-radius: 10px;
+    border: 1px solid #f5f5f5;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 13px;
+    gap: 10px;
+    text-align: left;
+    color: #78778b;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+}
+.span {
+    color: #000;
+}
+.signUpFor {
+    font-weight: 500;
+    color: #1b212d;
+}
+.dontHaveAnContainer {
+    position: relative;
+}
+.frameChild {
+    width: 96px;
+    position: relative;
+    height: 11px;
+}
+.dontHaveAnAccountSignUpParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 10px;
+    text-align: left;
+    font-size: 14px;
+    color: #929eae;
+}
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+    text-align: center;
+    font-size: 16px;
+}
+.signIn1 {
+    position: absolute;
+    top: 199px;
+    left: 135px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 25px;
+}
+.imageIcon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 675px;
+    height: 900px;
+    object-fit: cover;
+}
+.overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #1b212d;
+    width: 675px;
+    height: 900px;
+    opacity: 0.1;
+}
+.image {
+    position: absolute;
+    top: 0px;
+    left: 765px;
+    width: 675px;
+    height: 900px;
+}
+.excludeIcon {
+    width: 30px;
+    position: relative;
+    height: 30px;
+}
+.maglo {
+    width: 80px;
+    position: relative;
+    display: inline-block;
+    height: 23px;
+    flex-shrink: 0;
+}
+.logo {
+    position: absolute;
+    top: 40px;
+    left: 135px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    font-size: 18px;
+    font-family: Gordita;
+}
+.signIn {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 900px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 30px;
+    color: #1b212d;
+    font-family: 'Kumbh Sans';
+}
+
